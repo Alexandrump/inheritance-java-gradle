@@ -13,7 +13,7 @@ Inheritance on Java using Gradle
 
 ### What about the code
 
-Source files are inside *BrujulaIT/inheritance-java-gradle/src* folder.
+Source files are inside *BrujulaIT/inheritance-java-gradle/figures/src* folder.
 
 The project have been done using Java 1.8 Version , Gradle for compiling the .jar, for managing dependencies, and Android Studio IDE.
 
