@@ -7,10 +7,17 @@ public class Parallelogram extends Figure {
     Parallelogram() {
     }
 
+    /**
+     * Named Constructor
+     * @return Parallelogram
+     */
     static Parallelogram create() {
         return new Parallelogram();
     }
 
+    /**
+     * @return Render name
+     */
     @Override
     public String render() {
         return NAME + " (identifier: " + super.getUuid() + ")";
