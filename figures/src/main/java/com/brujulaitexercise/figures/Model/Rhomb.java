@@ -7,10 +7,17 @@ public class Rhomb extends Parallelogram {
     private Rhomb() {
     }
 
+    /**
+     * Named Constructor
+     * @return Rhomb
+     */
     public static Rhomb create() {
         return new Rhomb();
     }
 
+    /**
+     * @return Render name
+     */
     @Override
     public String render() {
         return NAME + " (identifier: " + super.getUuid() + ")";

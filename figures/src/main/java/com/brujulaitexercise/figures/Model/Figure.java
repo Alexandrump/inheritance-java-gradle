@@ -11,10 +11,16 @@ public abstract class Figure {
     Figure() {
     }
 
+    /**
+     * @return Render name
+     */
     public String render() {
         return NAME;
     }
 
+    /**
+     * @return Generated UUID
+     */
     UUID getUuid() {
         return uuid;
     }

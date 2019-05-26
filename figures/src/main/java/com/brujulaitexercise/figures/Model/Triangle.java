@@ -7,11 +7,17 @@ public class Triangle extends Figure {
     Triangle() {
     }
 
-
+    /**
+     * Named Constructor
+     * @return Triangle
+     */
     static Triangle create() {
         return new Triangle();
     }
 
+    /**
+     * @return Render name
+     */
     @Override
     public String render() {
 
