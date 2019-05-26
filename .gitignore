@@ -11,5 +11,7 @@
 /build
 /captures
 .externalNativeBuild
+/basics-of-html5-css3-jquery/node_modules
+
 
 \.idea/
