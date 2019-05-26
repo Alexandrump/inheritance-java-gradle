@@ -13,7 +13,7 @@ Inheritance on Java using Gradle
 
 ### What about the code
 
-Source files are inside *BrujulaIT/inheritance-java-gradle/src* folder.
+Source files are inside *BrujulaIT/inheritance-java-gradle/figures/src* folder.
 
 The project have been done using Java 1.8 Version , Gradle for compiling the .jar, for managing dependencies, and Android Studio IDE.
 
@@ -21,4 +21,4 @@ The exercise was easy so I decided to introduce it complexity simulating a basic
 
 Factory Static Method, Entity and Repository Patterns have been used. Constant have been declared in static variables way.
 
-If you have any doubt please contact me: [email](alejandrompere@gmail.com)
+If you have any doubt please contact me: [email](mailto:alejandrompere@gmail.com)
