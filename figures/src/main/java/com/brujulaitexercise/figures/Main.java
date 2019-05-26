@@ -16,16 +16,18 @@ public class Main {
      */
     public static void main(String[] args) {
         try {
+            FigureCollection figureCollection = FigureCollection.instance();
+
             renderSelectedFigures(
                     "List of Parallelograms:",
-                    FigureStackRepository.create(FigureCollection.instance()
+                    FigureStackRepository.create(figureCollection
                             .getFigures())
                             .findByFigureType(Parallelogram.class)
             );
 
             renderSelectedFigures(
                     "List of Triangles:",
-                    FigureStackRepository.create(FigureCollection.instance()
+                    FigureStackRepository.create(figureCollection
                             .getFigures())
                             .findByFigureType(Triangle.class)
             );
