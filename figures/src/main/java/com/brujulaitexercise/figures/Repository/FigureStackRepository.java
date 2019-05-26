@@ -2,6 +2,7 @@ package com.brujulaitexercise.figures.Repository;
 
 import com.brujulaitexercise.figures.Model.Figure;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class FigureStackRepository implements FigureRepositoryInterface {
@@ -25,9 +26,10 @@ public class FigureStackRepository implements FigureRepositoryInterface {
      * @return Instanced Figure
      */
     public List<Figure> findByFigureType(Class<? extends Figure> expectedFigure) {
-        figureCollection.removeIf(
+        List<Figure> filteredCollection = new ArrayList<>(figureCollection);
+        filteredCollection.removeIf(
                 f -> !expectedFigure.isAssignableFrom(f.getClass())
         );
-        return figureCollection;
+        return filteredCollection;
     }
 }
